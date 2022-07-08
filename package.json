@@ -18,7 +18,8 @@
     "start": "node build/index.js",
     "postinstall": "tsc && cp -R public build/ && npm run copy-assets",
     "watch-node": "nodemon build/index.js",
-    "watch-ts": "tsc -w"
+    "watch-ts": "tsc -w",
+    "build": "echo: build script executed"
   },
   "devDependencies": {
     "@tsconfig/recommended": "1.0.1",
